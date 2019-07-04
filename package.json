@@ -1,0 +1,36 @@
+{
+  "name": "electron-context-menu-example",
+  "version": "0.0.1",
+  "description": "example for the @anujdatar/electron-context-menu package",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "electron-rebuild": "electron-rebuild -f -w spellchecker",
+    "start": "electron .",
+    "postinstall": "npm run electron-rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anujdatar/electron-context-menu-example.git"
+  },
+  "keywords": [
+    "electron",
+    "context-menus",
+    "example"
+  ],
+  "author": "Anuj Datar <anuj.datar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anujdatar/electron-context-menu-example/issues"
+  },
+  "homepage": "https://github.com/anujdatar/electron-context-menu-example#readme",
+  "devDependencies": {
+    "electron": "^5.0.6",
+    "electron-rebuild": "^1.8.5",
+    "electron-store": "^4.0.0"
+  },
+  "dependencies": {
+    "@anujdatar/electron-context-menu": "^1.1.1",
+    "spellchecker": "^3.6.1"
+  }
+}
