@@ -13,7 +13,6 @@ const configStore = new ElectronStore()
 
 function createWindow () {
   mainWindow = new BrowserWindow({
-    icon: path.join(__dirname, './images/logo.png'),
     title: 'Electron Context Menu - Example',
     webPreferences: {
       // nodeIntegration: true,
